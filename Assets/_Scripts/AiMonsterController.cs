@@ -50,7 +50,7 @@ public class AiMonsterController : MonoBehaviour
             agent.isStopped = false;
             Debug.Log("WALK!");
         }
-        if (target != null) GameObject controller
+        if (target != null) //GameObject controller
         agent.SetDestination(target.transform.position);
     }    
 
